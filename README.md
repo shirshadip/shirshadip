@@ -9,6 +9,10 @@
 - Deep Python practice
 - Mathematics for Data Science
 - Low-level systems understanding
+## Most Used Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shirshadip&layout=compact)
+
 
 ## Contact
 - GitHub projects:https://github.com/shirshadip?tab=repositories
