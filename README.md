@@ -3,7 +3,7 @@
 ## About Me
 - 💻 Computer Science student
 - 🧠 Interested in AI, Data Science, and Systems Programming
-- 🛠️ Languages: Python, C, Java
+- 🛠️ Languages: Python, C, c++
 
 ## Current Focus
 - Deep Python practice
