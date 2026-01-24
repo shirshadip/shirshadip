@@ -92,14 +92,13 @@ me.say_hello()
 <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
 <br>MySQL
 </td>
+
 <td align="center" width="96">
-<!-- <img src="https://skillicons.dev/icons?i=jupyter-notebook
-" width="48" height="48" alt="Jupyter" />
-<br>Jupyter -->
-<img src="image.png
-" width="48" height="48" alt="Jupyter" />
-<br>Jupyter
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+       width="48" height="48" alt="Jupyter" />
+  <br>Jupyter
 </td>
+
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
 <br>HTML
