@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projects & Research</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="grain"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#research">Research</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Projects & Research</h1>
+                <p>Exploring the intersection of technology, creativity, and real-world impact through blogs, research papers, and innovative projects.</p>
+            </div>
+        </section>
+
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="blog">Blogs</button>
+                    <button class="filter-btn" data-filter="research">Research</button>
+                    <button class="filter-btn" data-filter="project">Projects</button>
+                </div>
+                <div class="tags-container">
+                    <span class="tag" data-tag="ai">AI/ML</span>
+                    <span class="tag" data-tag="web">Web Dev</span>
+                    <span class="tag" data-tag="data">Data Science</span>
+                    <span class="tag" data-tag="security">Security</span>
+                    <span class="tag" data-tag="design">Design</span>
+                    <span class="tag" data-tag="mobile">Mobile</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Portfolio. Crafted with passion.</p>
+        </div>
+    </footer>
+
+    <script>
+        const projects = [
+            {
+                id: 1,
+                type: 'blog',
+                title: 'Building Scalable APIs',
+                description: 'A deep dive into best practices for designing and implementing RESTful APIs that can handle millions of requests.',
+                tags: ['web', 'data'],
+                icon: '📝',
+                link: '#'
+            },
+            {
+                id: 2,
+                type: 'research',
+                title: 'Neural Networks for Time Series',
+                description: 'Research paper exploring LSTM and Transformer architectures for financial forecasting applications.',
+                tags: ['ai', 'data'],
+                icon: '🔬',
+                link: '#'
+            },
+            {
+                id: 3,
+                type: 'project',
+                title: 'E-Commerce Platform',
+                description: 'Full-stack e-commerce solution with real-time inventory management and payment processing.',
+                tags: ['web', 'design'],
+                icon: '🛒',
+                link: '#'
+            },
+            {
+                id: 4,
+                type: 'blog',
+                title: 'Modern CSS Techniques',
+                description: 'Exploring CSS Grid, Flexbox, and modern animation techniques for creating stunning web experiences.',
+                tags: ['web', 'design'],
+                icon: '🎨',
+                link: '#'
+            },
+            {
+                id: 5,
+                type: 'research',
+                title: 'Cybersecurity in IoT',
+                description: 'Analyzing vulnerabilities in IoT devices and proposing security frameworks for smart home ecosystems.',
+                tags: ['security', 'mobile'],
+                icon: '🔒',
+                link: '#'
+            },
+            {
+                id: 6,
+                type: 'project',
+                title: 'Mobile Fitness Tracker',
+                description: 'Cross-platform mobile app for tracking workouts, nutrition, and health metrics with ML-powered insights.',
+                tags: ['mobile', 'ai'],
+                icon: '📱',
+                link: '#'
+            }
+        ];
+
+        let selectedTags = [];
+        let activeFilter = 'all';
+
+        function renderProjects() {
+            const grid = document.getElementById('projectsGrid');
+            grid.innerHTML = '';
+
+            const filtered = projects.filter(project => {
+                const matchesType = activeFilter === 'all' || project.type === activeFilter;
+                const matchesTags = selectedTags.length === 0 || 
+                    selectedTags.some(tag => project.tags.includes(tag));
+                return matchesType && matchesTags;
+            });
+
+            filtered.forEach((project, index) => {
+                const card = document.createElement('div');
+                card.className = 'project-card';
+                card.style.animationDelay = `${index * 0.1}s`;
+                
+                card.innerHTML = `
+                    <div class="project-image">${project.icon}</div>
+                    <div class="project-content">
+                        <span class="project-type">${project.type}</span>
+                        <h3 class="project-title">${project.title}</h3>
+                        <p class="project-description">${project.description}</p>
+                        <div class="project-tags">
+                            ${project.tags.map(tag => `<span class="project-tag">#${tag}</span>`).join('')}
+                        </div>
+                        <a href="${project.link}" class="project-link">
+                            Read more →
+                        </a>
+                    </div>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activeFilter = btn.dataset.filter;
+                renderProjects();
+            });
+        });
+
+        document.querySelectorAll('.tag').forEach(tag => {
+            tag.addEventListener('click', () => {
+                const tagValue = tag.dataset.tag;
+                
+                if (selectedTags.includes(tagValue)) {
+                    selectedTags = selectedTags.filter(t => t !== tagValue);
+                    tag.classList.remove('selected');
+                } else {
+                    selectedTags.push(tagValue);
+                    tag.classList.add('selected');
+                }
+                
+                renderProjects();
+            });
+        });
+
+        renderProjects();
+    </script>
+</body>
+</html>
