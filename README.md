@@ -93,7 +93,8 @@ me.say_hello()
 <br>MySQL
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=jupyter" width="48" height="48" alt="Jupyter" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg
+" width="48" height="48" alt="Jupyter" />
 <br>Jupyter
 </td>
 <td align="center" width="96">
@@ -150,7 +151,7 @@ me.say_hello()
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shirshadip&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=shirshadip&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="" />
 </div>
 
 ---
@@ -336,7 +337,7 @@ graph LR
 <a href="https://github.com/shirshadip">
   <img src="https://img.shields.io/badge/GitHub-Follow_Me-100000?style=for-the-badge&logo=github&logoColor=white" height="35" />
 </a>
-<a href="shirshadiphere@gmail.com">
+<a href="mailto:shirshadip@outlook.com">
   <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
 </a>
 
