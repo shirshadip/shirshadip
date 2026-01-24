@@ -93,7 +93,10 @@ me.say_hello()
 <br>MySQL
 </td>
 <td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg
+<!-- <img src="https://skillicons.dev/icons?i=jupyter-notebook
+" width="48" height="48" alt="Jupyter" />
+<br>Jupyter -->
+<img src="image.png
 " width="48" height="48" alt="Jupyter" />
 <br>Jupyter
 </td>
