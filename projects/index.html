@@ -3,55 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Portfolio</title>
+    <title>Projects | Shirshadip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
+<div class="bg-gradient"></div>
+<div class="grid-pattern"></div>
+
 <header class="header">
-    <div class="container">
-        <h1>My Projects</h1>
-        <p>Selected work in software development, research, and experimentation.</p>
-    </div>
+    <h1>PROJECTS</h1>
+    <div class="decorative-line"></div>
+    <p>Selected work in software development, IoT, and creative experimentation</p>
 </header>
 
 <main class="container">
+    <div class="projects-grid">
+        
+        <article class="project-card">
+            <div class="project-number">01</div>
+            <h2>QR Code Maker</h2>
+            <div class="project-meta">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">GUI</span>
+                <span class="tech-tag">Open Source</span>
+                <span class="tech-tag">tkinter</span>
+            </div>
+            <p>
+                A fully customizable GUI-based application for generating QR codes according to your specific needs. Built with Python, this open-source tool offers extensive customization options for creating professional QR codes.
+            </p>
+            <a href="#" class="project-link">Explore Project</a>
+        </article>
 
-    <!-- Project Card -->
-    <article class="project-card">
-        <h2>Qr code maker in python</h2>
-        <p class="project-meta">Python · CLI Application</p>
-        <p>
-            Qr code maker is a GUI based application for generating qr codes according to your need.It is open source and fully customizable.
-        </p>
-        <a href="#" target="_blank">View Project →</a>
-    </article>
+        <article class="project-card">
+            <div class="project-number">02</div>
+            <h2>Smart Lamp System</h2>
+            <div class="project-meta">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">Hardware</span>
+            </div>
+            <p>
+                An intelligent lighting system featuring LDR sensors, ultrasonic detection, and RGB LED control. Automatically adjusts brightness based on ambient light with manual potentiometer override for complete control.
+            </p>
+            <a href="#" class="project-link">Explore Project</a>
+        </article>
 
-    <article class="project-card">
-        <h2>Smart Lamp using Arduino</h2>
-        <p class="project-meta">Arduino · IoT · Sensors</p>
-        <p>
-            Automatic lamp system using LDR, ultrasonic sensor, and RGB LED with
-            potentiometer control.
-        </p>
-        <a href="#" target="_blank">View Project →</a>
-    </article>
-
-    <article class="project-card">
-        <h2>File Management Tool</h2>
-        <p class="project-meta">Python · OS Module</p>
-        <p>
-            Utility script to automate directory navigation, file creation,
-            renaming, and deletion.
-        </p>
-        <a href="#" target="_blank">View Project →</a>
-    </article>
-
+        <article class="project-card">
+            <div class="project-number">03</div>
+            <h2>File Management Tool</h2>
+            <div class="project-meta">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Automation</span>
+                <span class="tech-tag">CLI</span>
+            </div>
+            <p>
+                A powerful utility script that streamlines file operations through automation. Navigate directories, create files, rename batches, and manage deletion tasks efficiently through an intuitive command-line interface.
+            </p>
+            <a href="#" class="project-link">Explore Project</a>
+        </article>
+<article class="project-card">
+            <div class="project-number">03</div>
+            <h2>WeatherAppIOT</h2>
+            <div class="project-meta">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">IOT</span>
+                <span class="tech-tag">Python</span>
+            </div>
+            <p>
+                A IOT and python project where I used flask API to show the output from the dht 11 sensor in a html page with pyserial module.
+            </p>
+            <a href="#" class="project-link">Explore Project</a>
+        </article>
+    </div>
 </main>
 
 <footer class="footer">
-    <p>© 2026 Shirshadip</p>
+    <div class="footer-glow"></div>
+    <p>© 2026 Shirshadip · Crafted with passion and code</p>
 </footer>
+
 
 </body>
 </html>
