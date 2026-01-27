@@ -257,6 +257,7 @@ body {
     position: relative;
     z-index: 1;
     line-height: 1.2;
+    cursor: ;
 }
 
 .project-meta {
@@ -275,6 +276,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .project-card:hover .tech-tag {
