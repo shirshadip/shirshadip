@@ -41,12 +41,12 @@ class Developer:
         }
         self.interests = [
             "🔐 Cybersecurity & Networking",
-            "📊 Data Science & Analytics", 
+            "📊 Data Science & Analytics",
             "⚙️ Systems Programming & OS",
             "🔧 IoT & Embedded Systems",
             "🧮 Physics & Mathematics"
         ]
-        
+
     def current_focus(self):
         return [
             "🔥 Mastering Advanced Python",
@@ -54,7 +54,7 @@ class Developer:
             "🌐 Building Web Applications",
             "🔧 Exploring Low-Level Systems & OS"
         ]
-    
+
     def say_hello(self):
         print("Thanks for visiting! Let's connect and build amazing things! 🌟")
 
@@ -162,37 +162,41 @@ me.say_hello()
 
 <div align="center">
 
+</div>
+
+```mermaid
 graph LR
-    A[🎓 Computer Science] --> B[🐍 Python & Web Dev]
-    A --> C[🔐 Cybersecurity]
-    A --> D[⚙️ Systems & OS]
-    A --> J[🤖 Artificial Intelligence]
+  A[🎓 Computer Science] --> B[🐍 Python & Web Dev]
+  A --> C[🔐 Cybersecurity]
+  A --> D[⚙️ Systems & OS]
+  A --> J[🤖 Artificial Intelligence]
 
-    B --> E[🌐 Full Stack Development]
-    B --> K[📱 App Development]
+  B --> E[🌐 Full Stack Development]
+  B --> K[📱 App Development]
 
-    C --> F[🛡️ Security Expert]
-    C --> G[📡 Networking]
+  C --> F[🛡️ Security Expert]
+  C --> G[📡 Networking]
 
-    D --> H[🔧 Low-Level Development]
-    D --> L[💻 Operating System Internals]
+  D --> H[🔧 Low-Level Development]
+  D --> L[💻 Operating System Internals]
 
-    J --> M[🧠 Machine Learning]
-    J --> N[📊 Data Science]
+  J --> M[🧠 Machine Learning]
+  J --> N[📊 Data Science]
 
-    M --> O[🧩 Deep Learning]
-    N --> I
+  M --> O[🧩 Deep Learning]
+  N --> I
 
-    E --> I[🚀 Real Projects]
-    F --> I
-    H --> I
-    K --> I
-    O --> I
+  E --> I[🚀 Real Projects]
+  F --> I
+  H --> I
+  K --> I
+  O --> I
 
-    style A fill:#00D9FF,stroke:#fff,stroke-width:2px,color:#000
-    style C fill:#FF3B3B,stroke:#fff,stroke-width:2px,color:#fff
-    style J fill:#8A5CFF,stroke:#fff,stroke-width:2px,color:#fff
-    style I fill:#FF6D00,stroke:#fff,stroke-width:2px,color:#fff
+  style A fill:#00D9FF,stroke:#fff,stroke-width:2px,color:#000
+  style C fill:#FF3B3B,stroke:#fff,stroke-width:2px,color:#fff
+  style J fill:#8A5CFF,stroke:#fff,stroke-width:2px,color:#fff
+  style I fill:#FF6D00,stroke:#fff,stroke-width:2px,color:#fff
+```
 
 </div>
 
@@ -201,6 +205,7 @@ graph LR
 <td width="50%" valign="top">
 
 ### 🐍 Python & Web Development
+
 - ✅ Advanced data structures & algorithms
 - ✅ Object-oriented design patterns
 - 🔄 React & modern web frameworks
@@ -211,6 +216,7 @@ graph LR
 <td width="50%" valign="top">
 
 ### 🔐 Cybersecurity Fundamentals
+
 - ✅ Network protocols & architecture
 - 🔄 Operating system security
 - 🔄 Cryptography basics
@@ -223,6 +229,7 @@ graph LR
 <td width="50%" valign="top">
 
 ### 🔧 Systems & Low-Level Programming
+
 - ✅ Memory management & pointers (C/C++)
 - 🔄 Operating systems internals
 - 🔄 Computer architecture
@@ -233,6 +240,7 @@ graph LR
 <td width="50%" valign="top">
 
 ### 📊 Science Background
+
 - ✅ Physics fundamentals & mechanics
 - ✅ Mathematics (Calculus & Linear Algebra)
 - 🔄 Statistical analysis & probability
