@@ -166,7 +166,7 @@ me.say_hello()
 
 ```mermaid
 graph LR
-  A[🎓 Computer Science] --> B[🐍 core programmming(Python,c,c++)]
+  A[🎓 Computer Science] --> B[🐍 languages(python,c,c++)]
   A --> C[🔐 Cybersecurity]
   A --> D[⚙️ Systems & OS]
   A --> J[🤖 Artificial Intelligence]
