@@ -162,27 +162,27 @@ me.say_hello()
 
 ```mermaid
 graph LR
-  A[🎓 Computer Science] --> B[🐍 languages(python,c,c++)]
-  A --> C[🔐 Cybersecurity]
-  A --> D[⚙️ Systems & OS]
-  A --> J[🤖 Artificial Intelligence]
+  A[Computer Science] --> B[Python / c / c++]
+  A --> C[Cybersecurity]
+  A --> D[Systems & OS]
+  A --> J[Artificial Intelligence]
 
-  B --> E[🌐 Data structures and algorithms]
-  B --> K[📱 problem solving]
+  B --> E[Data Structures & Algorithms]
+  B --> K[Problem Solving]
 
-  C --> F[🛡️ Security Expert]
-  C --> G[📡 Networking]
+  C --> F[Security Expert]
+  C --> G[Networking]
 
-  D --> H[🔧 Low-Level Development]
-  D --> L[💻 Operating System Internals]
+  D --> H[Low-Level Development]
+  D --> L[OS Internals]
 
-  J --> M[🧠 Machine Learning]
-  J --> N[📊 Data Science]
+  J --> M[Machine Learning]
+  J --> N[Data Science]
 
-  M --> O[🧩 Deep Learning]
-  N --> I
+  M --> O[Deep Learning]
+  N --> I[Real Projects]
 
-  E --> I[🚀 Real Projects]
+  E --> I
   F --> I
   H --> I
   K --> I
