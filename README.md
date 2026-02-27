@@ -162,23 +162,37 @@ me.say_hello()
 
 <div align="center">
 
-```mermaid
 graph LR
     A[🎓 Computer Science] --> B[🐍 Python & Web Dev]
     A --> C[🔐 Cybersecurity]
     A --> D[⚙️ Systems & OS]
-    B --> E[🌐 Full Stack]
+    A --> J[🤖 Artificial Intelligence]
+
+    B --> E[🌐 Full Stack Development]
+    B --> K[📱 App Development]
+
     C --> F[🛡️ Security Expert]
-    D --> F
     C --> G[📡 Networking]
-    D --> H[🔧 Low-Level Dev]
+
+    D --> H[🔧 Low-Level Development]
+    D --> L[💻 Operating System Internals]
+
+    J --> M[🧠 Machine Learning]
+    J --> N[📊 Data Science]
+
+    M --> O[🧩 Deep Learning]
+    N --> I
+
     E --> I[🚀 Real Projects]
     F --> I
     H --> I
+    K --> I
+    O --> I
+
     style A fill:#00D9FF,stroke:#fff,stroke-width:2px,color:#000
-    style C fill:#FF0000,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#FF3B3B,stroke:#fff,stroke-width:2px,color:#fff
+    style J fill:#8A5CFF,stroke:#fff,stroke-width:2px,color:#fff
     style I fill:#FF6D00,stroke:#fff,stroke-width:2px,color:#fff
-```
 
 </div>
 
