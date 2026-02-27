@@ -160,7 +160,6 @@ me.say_hello()
 
 ## 🎯 Current Learning Path
 
-<div align="center">
 ```mermaid
 graph LR
   A[🎓 Computer Science] --> B[🐍 languages(python,c,c++)]
@@ -168,35 +167,33 @@ graph LR
   A --> D[⚙️ Systems & OS]
   A --> J[🤖 Artificial Intelligence]
 
-B --> E[🌐 Data structures and algorithms]
-B --> K[📱 problem solving]
+  B --> E[🌐 Data structures and algorithms]
+  B --> K[📱 problem solving]
 
-C --> F[🛡️ Security Expert]
-C --> G[📡 Networking]
+  C --> F[🛡️ Security Expert]
+  C --> G[📡 Networking]
 
-D --> H[🔧 Low-Level Development]
-D --> L[💻 Operating System Internals]
+  D --> H[🔧 Low-Level Development]
+  D --> L[💻 Operating System Internals]
 
-J --> M[🧠 Machine Learning]
-J --> N[📊 Data Science]
+  J --> M[🧠 Machine Learning]
+  J --> N[📊 Data Science]
 
-M --> O[🧩 Deep Learning]
-N --> I
+  M --> O[🧩 Deep Learning]
+  N --> I
 
-E --> I[🚀 Real Projects]
-F --> I
-H --> I
-K --> I
-O --> I
+  E --> I[🚀 Real Projects]
+  F --> I
+  H --> I
+  K --> I
+  O --> I
 
-style A fill:#00D9FF,stroke:#fff,stroke-width:2px,color:#000
-style C fill:#FF3B3B,stroke:#fff,stroke-width:2px,color:#fff
-style J fill:#8A5CFF,stroke:#fff,stroke-width:2px,color:#fff
-style I fill:#FF6D00,stroke:#fff,stroke-width:2px,color:#fff
+  style A fill:#00D9FF,stroke:#fff,stroke-width:2px,color:#000
+  style C fill:#FF3B3B,stroke:#fff,stroke-width:2px,color:#fff
+  style J fill:#8A5CFF,stroke:#fff,stroke-width:2px,color:#fff
+  style I fill:#FF6D00,stroke:#fff,stroke-width:2px,color:#fff
 
 ```
-
-</div>
 
 <table>
 <tr>
