@@ -101,7 +101,8 @@
                         <span class="tech-tag">WEB</span>
                     </div>
                     <p>
-                        A streamlit python project where you can generate qr codes online without installing my qrcodemaker windows app.It has also some more excitinig features and easy to use and contribute.
+                        A streamlit python project where you can generate qr codes online without installing my
+                        qrcodemaker windows app.It has also some more excitinig features and easy to use and contribute.
                     </p>
                     <a href="https://qrcodemakeronline.streamlit.app" class="project-link">Explore Project</a>
                 </article>
@@ -118,12 +119,19 @@
                         <span class="tech-tag">Data analytics and Visualization</span>
                     </div>
                     <p>
-                        A data science streamlit project with pandas, You can made a report of the performance of a class of students.
+                        A data science streamlit project with pandas, You can made a report of the performance of a
+                        class of students.
                     </p>
                     <a href="https://reportanalyzerapp.streamlit.app/" class="project-link">Explore Project</a>
                 </article>
             </div>
         </main>
+        <div class="app-container">
+            <img src="github.png" class="app-icon" data-link="https://github.com/shirshadip">
+            <img src="linkedin.png" class="app-icon"
+                data-link="https://www.linkedin.com/in/shirshadip-samajder-557552309">
+            <img src="logo.png" class="app-icon" data-link="https://shirshadip-portfolio.shirshadip.workers.dev/">
+        </div>
 
         <footer class="footer">
             <div class="footer-glow"></div>
@@ -131,6 +139,13 @@
         </footer>
 
         <script src="searchbar.js"></script>
+        <script>
+            document.querySelectorAll(".app-icon").forEach(icon => {
+                icon.addEventListener("click", () => {
+                    window.location.href = icon.getAttribute("data-link");
+                });
+            });
+        </script>
 
     </body>
 
