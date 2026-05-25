@@ -330,61 +330,46 @@ graph LR
 
 <img align="right" alt="Fun Coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-- 🎯 **Problem Solver**: Love tackling algorithmic challenges
-- 🔐 **Security Enthusiast**: Passionate about cybersecurity & network security
-- 📚 **Continuous Learner**: Always exploring new technologies
-- 🔬 **Science Nerd**: Strong foundation in Physics & Mathematics
-- 🌐 **Web Developer**: Building responsive and dynamic web applications
-- 🔧 **IoT Explorer**: Experimenting with embedded systems & hardware
-- 💡 **Low-Level Curious**: Fascinated by OS internals and computer architecture
-- ☕ **Coffee Lover**: Fueled by caffeine and curiosity
+# Shirshadip Samajder
 
-<br clear="right"/>
+Hi — I'm Shirshadip, a Computer Science student interested in cybersecurity, systems programming, and data science. This repository contains my projects and notes.
 
 ---
 
-## 💬 Let's Connect!
+## Quick links
 
-<div align="center">
+- Portfolio: https://shirshadip-portfolio.shirshadip.workers.dev/
+- LinkedIn: https://www.linkedin.com/in/shirshadip-samajder-557552309
+- GitHub: https://github.com/shirshadip
 
-<a href="https://shirshadip-portfolio.shirshadip.workers.dev/">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-FF5722?style=for-the-badge&labelColor=000000" height="35" />
-</a>
-<a href="https://www.linkedin.com/in/shirshadip-samajder-557552309">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" />
-</a>
-<a href="https://github.com/shirshadip">
-  <img src="https://img.shields.io/badge/GitHub-Follow_Me-100000?style=for-the-badge&logo=github&logoColor=white" height="35" />
-</a>
-<a href="mailto:shirshadip@outlook.com">
-  <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
-</a>
+---
 
-<br/><br/>
+## About me
 
-### 💭 Quote of the Day
+I build small projects focused on learning systems, networking, and machine learning. I prefer clear, minimal writeups with runnable examples and short READMEs for each project.
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+---
 
-<br/>
+## Tech highlights
 
-### 🐍 Contribution Snake
+- Python, C, C++
+- JavaScript (basic web) and HTML/CSS
+- Linux, Git, Jupyter
 
-<picture>
+---
+
+## Projects
+
+See the repositories on my GitHub profile (linked above). Each project has a short README explaining how to run it.
+
+---
+
+## Contact
+
+Feel free to open an issue or send an email to shirshadip@outlook.com.
+
+---
+
+_Note: Removed unstable third-party widgets and dynamic images from this README to improve reliability._
+
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shirshadip/shirshadip/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shirshadip/shirshadip/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shirshadip/shirshadip/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br/><br/>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
-
-### ⭐ Thanks for visiting! Feel free to star ⭐ repositories you find interesting!
-
-<img src="https://raw.githubusercontent.com/BEPb/BEPb/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-
-</div>
-```
