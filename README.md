@@ -370,6 +370,6 @@ Feel free to open an issue or send an email to shirshadip@outlook.com.
 
 ---
 
-_Note: Removed unstable third-party widgets and dynamic images from this README to improve reliability._
 
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shirshadip/shirshadip/output/github-contribution-grid-snake-dark.svg">
+
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shirshadip/shirshadip/output/github-contribution-grid-snake-dark.svg">
