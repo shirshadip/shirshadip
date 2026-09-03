@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://shirshadip-portfolio.shirshadip.workers.dev/">
+<a href="https://shirshadip.online">
   <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20Website-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Portfolio">
 </a>
 <a href="https://www.linkedin.com/in/shirshadip-samajder-557552309">
@@ -193,7 +193,7 @@ If you have an idea, project, or technical problem you'd like to discuss, feel f
   <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
-<a href="https://shirshadip-portfolio.shirshadip.workers.dev/">
+<a href="https://shirshadip.online/">
   <img src="https://img.shields.io/badge/Portfolio-Work%20With%20Me-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Portfolio">
 </a>
 
