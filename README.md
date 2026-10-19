@@ -25,8 +25,7 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=shirshadip&style=flat-square&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views">
-
+<!-- <img src="https://komarev.com/ghpvc/?username=shirshadip&style=flat-square&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views"> -->
 </div>
 
 ---
@@ -39,8 +38,8 @@ I'm a **Computer Science student and freelancer** who enjoys building software a
 <tr>
 <td width="50%" valign="top">
 
-* 🐍 Python development
-* ⚙️ C & C++
+* ⚛️ Physics
+* ⚙️ Low level programming
 * 🌐 Web development
 * 📊 Data Science & Machine Learning
 
@@ -50,7 +49,7 @@ I'm a **Computer Science student and freelancer** who enjoys building software a
 * 🧠 Algorithms & problem solving
 * 💻 Systems programming
 * 🔌 IoT & embedded systems
-* 🧮 Mathematics, physics & computational science
+* 🧮 complex systems in Web and native apps
 
 </td>
 </tr>
@@ -65,7 +64,7 @@ I'm a **Computer Science student and freelancer** who enjoys building software a
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css,react,mysql,git,github,linux,vscode,arduino,jupyter&perline=7" alt="Technologies">
+<img src="https://skillicons.dev/icons?i=python,c,cpp,next,react,mysql,git,linux,vscode,arduino,supabase,typescript,flask,tailwind,jupyter&perline=7" alt="Technologies">
 
 </div>
 
@@ -107,8 +106,8 @@ I'm a **Computer Science student and freelancer** who enjoys building software a
 ```text
 Computer Science
 │
-├── Programming ─── Python · C · C++
-├── Web ─────────── JavaScript · HTML/CSS · React
+├── Programming ─── Typescript · Python · C/C++ · rust
+├── Web ─────────── Next.js · Full stack · websockets · Flask
 ├── Data & AI ───── Data Science · Machine Learning · Mathematics
 └── Systems ─────── Operating Systems · Computer Architecture · Low-level code
 ```
@@ -121,7 +120,7 @@ I use GitHub to document projects, experiments, and learning work.
 
 | Area | Focus |
 | ---- | ----- |
-| 🐍 Python | Applications, automation & problem solving |
+| 🐍 Python | AI, automation & API development |
 | ⚙️ C/C++ | Programming fundamentals & systems |
 | 🌐 Web | Frontend & modern web applications |
 | 📊 Data | Analysis, visualization & machine learning |
@@ -150,7 +149,7 @@ I use GitHub to document projects, experiments, and learning work.
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shirshadip&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFB000" alt="Contribution graph" width="100%">
+<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=shirshadip&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFB000" alt="Contribution graph" width="100%"> -->
 
 </div>
 
@@ -193,7 +192,7 @@ I'm available for **freelance development and project collaborations**. Have an 
 
 ### Build · Learn · Experiment · Improve
 
-**Thanks for visiting my profile!**
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer" alt="Footer wave" width="100%">
 
