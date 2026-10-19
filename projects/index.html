@@ -20,15 +20,48 @@
         <div class="bg-gradient"></div>
         <div class="grid-pattern"></div>
 
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="brand" href="https://shirshadip.online/" aria-label="Shirshadip home">
+                <img src="logo.png" alt="">
+                <span>Shirshadip<span class="brand-dot">.</span></span>
+            </a>
+            <a class="nav-link" href="https://github.com/shirshadip" target="_blank" rel="noopener noreferrer">
+                GitHub <span aria-hidden="true">↗</span>
+            </a>
+        </nav>
+
         <header class="header">
-            <h1>PROJECTS</h1>
-            <div class="decorative-line"></div>
-            <p>Selected work in software development, Machine Learning , and creative experimentation</p>
+            <p class="eyebrow"><span class="status-dot"></span> A little of what I’ve been building</p>
+            <h1>Ideas into<br><span>things that work.</span></h1>
+            <p class="hero-copy">A collection of experiments, useful tools, and curious side projects — built to learn, solve, and share.</p>
+            <a class="hero-cta" href="#projects">Explore the work <span aria-hidden="true">↓</span></a>
         </header>
-        <input type="text" id="searchBar" placeholder="🔎Search by tags(eg. python,IOT,C,Web)....">
 
         <main class="container">
-            <div class="projects-grid">
+            <section class="project-section" id="projects" aria-labelledby="projects-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">THE COLLECTION</p>
+                        <h2 id="projects-title">Selected projects<span class="brand-dot">.</span></h2>
+                    </div>
+                    <p class="project-count" id="projectCount" aria-live="polite"></p>
+                </div>
+                <div class="project-tools">
+                    <label class="search-wrap" for="searchBar">
+                        <span class="search-icon" aria-hidden="true">⌕</span>
+                        <input type="search" id="searchBar" placeholder="Search projects, tools, or ideas…" autocomplete="off">
+                        <kbd>/</kbd>
+                    </label>
+                    <div class="filter-list" role="group" aria-label="Filter projects by category">
+                        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work</button>
+                        <button class="filter-button" type="button" data-filter="python" aria-pressed="false">Python</button>
+                        <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+                        <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI &amp; data</button>
+                        <button class="filter-button" type="button" data-filter="iot" aria-pressed="false">IoT</button>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
                 
 
                 <article class="project-card">
@@ -76,8 +109,9 @@
                     <p>
                         A GUI project in python with mysql database.Project associated with Ramkrishna Mission
                         Shilpamandira Computer centre.
-                        <a href="https://shirshadip.github.io/employee_management_app/" class="project-link"
-                            target="_blank">Explore Project</a>
+                    </p>
+                    <a href="https://shirshadip.github.io/employee_management_app/" class="project-link"
+                        target="_blank" rel="noopener noreferrer">Explore Project</a>
                 </article>
                 <article class="project-card">
                     <div class="project-number">04</div>
@@ -194,28 +228,29 @@
                     <br><br>
                     <a href="https://t.me/tensoraibyshirshadipbot" class="project-link" target="_blank">Use Telegram Bot</a>
                 </article>
-            </div>
+                </div>
+                <div class="empty-state" id="emptyState" hidden>
+                    <span aria-hidden="true">✳</span>
+                    <h3>No projects found</h3>
+                    <p>Try another search or reset the filters to see all projects.</p>
+                    <button class="reset-button" type="button" id="resetFilters">Show all projects</button>
+                </div>
+            </section>
         </main>
-        <div class="app-container">
-            <img src="github.png" class="app-icon" data-link="https://github.com/shirshadip">
-            <img src="linkedin.png" class="app-icon"
-                data-link="https://www.linkedin.com/in/shirshadip-samajder-557552309">
-            <img src="logo.png" class="app-icon" data-link="https://shirshadip.online/">
-        </div>
 
         <footer class="footer">
             <div class="footer-glow"></div>
-            <p>© 2026 Shirshadip · Crafted with passion and code</p>
+            <div class="footer-content">
+                <p>© 2026 Shirshadip <span>·</span> Built with curiosity and code.</p>
+                <div class="app-container" aria-label="Social links">
+                    <a href="https://github.com/shirshadip" class="app-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><img src="github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/shirshadip-samajder-557552309" class="app-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="linkedin.png" alt=""></a>
+                    <a href="https://shirshadip.online/" class="app-icon" aria-label="Personal website"><img src="logo.png" alt=""></a>
+                </div>
+            </div>
         </footer>
 
         <script src="searchbar.js"></script>
-        <script>
-            document.querySelectorAll(".app-icon").forEach(icon => {
-                icon.addEventListener("click", () => {
-                    window.location.href = icon.getAttribute("data-link");
-                });
-            });
-        </script>
 
     </body>
 
